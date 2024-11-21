@@ -1,4 +1,3 @@
-
 const themeSelector = document.getElementById('theme-selector');
 const listStyleSelector = document.getElementById('list-style-selector');
 const dynamicList = document.getElementById('dynamic-list');
