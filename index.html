@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Persistent Preferences</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="preferences-panel">
+    <h2>Preferences</h2>
+    
+    <label for="theme-selector">Select Theme:</label>
+    <select id="theme-selector">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+      <option value="pink">pink</option>
+    </select>
+    
+    <label for="list-style-selector">Select List Style:</label>
+    <select id="list-style-selector">
+      <option value="none">None</option>
+      <option value="bullets">Bullets</option>
+      <option value="numbers">Numbers</option>
+    </select>
+  </div>
+
+  <div class="list-section">
+    <h2>My List</h2>
+    <ul id="dynamic-list">
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
